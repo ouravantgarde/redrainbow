@@ -1,4 +1,5 @@
-Is it empty?
+
+<h1>Is it empty?</h1>
 
 Another day spent down in Noxipolis, still trying to find any way to help the apocalyptic situation. For Avnlyla, there are also friends here. Beyond the architecture and the sprawling voids it rests on or the natural grounds it suffocates, beyond the mystery or the monsters. Familiar life. Living here as she would live in more familiar places, except in more variations of liminal. Are they living a dream, existing almost the same day to day, like something meant to be? Living a fantasy, being like animate statues or decoration, like sapient wildlife, like background characters.
 
