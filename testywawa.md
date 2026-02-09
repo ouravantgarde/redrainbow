@@ -1,7 +1,7 @@
 i have no idea what is going on
 
 
-This is an <abbr title="A juicy fruity!!!!!!">orange</abbr>! But this is an orange too. Unfortunately, this orange does not have an abbreviation tag for it!
+This is an <abbr title="A juicy fruity!!!!!!">orange</abbr>! But this is an orange too. Unfortunately, this orange does not have an abbreviation tag for it! And none of this works on github itself!
 
 <abbr title="What the buzzy?"><b>testing bees</b></abbr>
 
