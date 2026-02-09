@@ -1,7 +1,9 @@
-This is an <abbr title="A juicy fruity!!!!!!">orange</abbr>! But this is an orange too. Unfortunately, this orange does not have an abbreviation tag for it.! aaaaaa
+And the world would move on without you, would it not?
 
-testing
+Should you give up, the souls will shift around you, the environment warping and growing and decaying. Those who wronged or gifted you, living or dying, not at your hands.
 
-*[apple]: a juicy morsel
+Till you are nothing more than simple art, nature, of such a beautiful world. Another ambience.
 
-apple and apple two
+Let me remake you, and mend you, you can be so much more...
+
+_The art that creates art._
