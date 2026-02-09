@@ -1,4 +1,4 @@
-i have no idea
+i have no idea what is going on
 
 
 This is an <abbr title="A juicy fruity!!!!!!">orange</abbr>! But this is an orange too. Unfortunately, this orange does not have an abbreviation tag for it!
@@ -7,8 +7,12 @@ This is an <abbr title="A juicy fruity!!!!!!">orange</abbr>! But this is an oran
 
 <abbr title="What the buzzy?">**testing buzz**</abbr>
 
-*[apple]: a juicy morsel
+*[apple]: Wow! Every time apple it mentioned, it will give it a tooltip instead of having to set up an html tag for every single instance!
 
-apple and apple two, these use awesome automatic tooltip markdown that works on jekyll sites but not github flavored markdown!
+apple and apple two, these use awesome automatic tooltip markdown that works on jekyll sites but not github flavored markdown! apple apple Apple apple
 
-  How does one create indents? Does this work?
+How does one create indents? Does a tab or two work?
+
+No it doesn't work, instead you have to make a darn `&nbsp;` for every empty space you need!
+
+&nbsp;&nbsp;&nbsp;&nbsp;See, now THIS is indented! This is going to be annoying...
