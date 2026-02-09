@@ -22,3 +22,68 @@ No it doesn't work, instead you have to make a darn `&nbsp;` for every empty spa
 &nbsp;&nbsp;&nbsp;&nbsp;See, now THIS is indented! This is going to be annoying to do the hundreds of times I must...
 
 Adding this line to update the repo to get it to rebuild since it like, broke? Uping the number here every time I do this: 3
+
+Dolls, Dogs, and Wawas, prepare thyself... FOR ALL MARKUP EVER!!!! That's right, In order to make sure I can always see the effects of if I mess with the style of any given format done in the md files I am using...
+
+I am going to shrimply type out All Markdown, and then All HTML that isn't already covered by Markdown (ignoring the tooltips above that is cool :>... And ones I don't see myself using ever...)
+
+# Heady Wawa 1
+
+## Heady Wawa 2
+
+### Heady Wawa 3
+
+#### Heady Wawa 4
+
+##### Heady Wawa 5
+
+###### Heady Wawa 6
+
+**Boldy Wawa**
+
+*Slanty Wawa*
+
+~~Crossy Wawa~~
+
+H~wawa~O
+
+wawa^wawa^
+
+> Wawa Quotes
+>
+> Can't think of any famous wawa quotes...
+>
+>> Wawa Quoteception
+
+```lua
+-- The Codey Wawa
+-- Straight up, coden et... and by et, lets just say... these are lua comments and do nothing.....
+```
+
+
+[The Linky Wawa, straight up with a linked up tooled tip](https://beesbeesbeesbees.com/ "Bees bee with you")
+
+And here the Downy Wawas end... With a divider, in markdown
+
+***
+
+And forth come the HTML Wawas!!
+
+<ins>The underlined wawa.</ins>
+
+<p style="text-align:center">This wawa wants to be in the center</p>
+
+<p style="color:blue">And this wawa wants to be blue.</p>
+
+Who let this wawa be so scrumptious?
+
+<img src="https://static1.e621.net/data/41/43/4143dbf4121905f9dc4aee752d9af7c1.png" alt="The Scrumpy Wawa" style="width:512px;height:512px;">
+
+Video Test:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RVdZs8Vh0O0?si=trVcVK2VGG2uXTfp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
