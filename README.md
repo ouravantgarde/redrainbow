@@ -4,6 +4,6 @@ Should you give up, the souls will shift around you, the environment warping and
 
 Till you are nothing more than simple art, nature, of such a beautiful world. Another ambience.
 
-Let me remake you, and mend you, you can be so much more...
+Let me remake you, and mend you, and you can be so much more...
 
 _The art that creates art._
