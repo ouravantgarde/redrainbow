@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 
 
 i have no idea what is going on
