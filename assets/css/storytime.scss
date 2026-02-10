@@ -37,7 +37,7 @@ html,body {
 }
 
 body {
-    color:  rgb(255 250 255);
+    color: rgba(255,250,255,1);
     font-family: "Courier Prime", monospace;
     font-size: 18px;
     line-height: 1.6;
@@ -71,11 +71,11 @@ p {
     padding: 4rem 2rem;
     background: rgba(0,0,0,0.93);
     border-left: 7px solid rgba(32,64,64,0.20);
-    border-right: 7px solid rgba(32,64,64,0.20);
+    border-right: 7px solid rgba(32,64,64,0.20)
 }
 
 code {
-    color: rgb(0 15 0);
+    color: rgba(0,15,0,1);
     background: white;
     font-size: 18px
 }
