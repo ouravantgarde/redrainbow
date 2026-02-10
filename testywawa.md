@@ -49,6 +49,8 @@ H~wawa~O
 
 wawa^wawa^
 
+WHAT! The wawas above have FAILED their markdown! HTML it is...
+
 > Wawa Quotes
 >
 > Can't think of any famous wawa quotes...
@@ -65,15 +67,19 @@ wawa^wawa^
 
 And here the Downy Wawas end... With a divider, in markdown
 
-***
+<hr>
 
-And forth come the HTML Wawas!!
+And forth come the HTML Wawas!! Who are actually bringing their divider line because markdown didn't work!
 
-<ins>The underlined wawa.</ins>
+<ins>The underlying wawa.</ins>
+
+H<sub>wawa</sub>O
+
+wawa<sup>wawa</sup>
 
 <p style="text-align:center">This wawa wants to be in the center</p>
 
-<p style="color:blue">And this wawa wants to be blue.</p>
+<p style="color:rosybrown">And this wawa wants to be puce.</p>
 
 Who let this wawa be so scrumptious?
 
