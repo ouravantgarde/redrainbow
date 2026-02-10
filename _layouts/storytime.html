@@ -8,25 +8,27 @@
     <title>Red Rainbow</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">  
 
-    <script>
-
-    function replaceTitleAttributes(){
-    var elements = document.querySelectorAll('abbr[title]'),
-        i;
-    for(i = 0; i < elements.length; i += 1){
-        elements[i].setAttribute('data-title', elements[i].title);
-        elements[i].removeAttribute('title');
-    }
-    }
-    window.onload = replaceTitleAttributes();
-    
-    </script>
-
 </head>
   
 <body>
   
     <div class="w">{{ content }}</div>
+
+    <script>
+
+    document.addEventListener("DOMContentLoaded", function(){
+        function replaceTitleAttributes(){
+        var elements = document.querySelectorAll('abbr[title]'),
+            i;
+        for(i = 0; i < elements.length; i += 1){
+            elements[i].setAttribute('data-title', elements[i].title);
+            elements[i].removeAttribute('title');
+        }
+        }
+    replaceTitleAttributes();
+    });
+    
+    </script>
   
 </body>
   
