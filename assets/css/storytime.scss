@@ -3,6 +3,31 @@
 
 @import "{{ site.theme }}";
 
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 html,body {
     background-image: url('https://cdn.discordapp.com/attachments/651260735535448085/1470592041867022376/red-rainbow-storytime-tempbg.jpg?ex=698bdb11&is=698a8991&hm=5a4f00f4c0bc7dd5208ded1149eaccd031f22f873e90aa91ae476d071ef96de6&');
     background-repeat: no-repeat;
@@ -12,7 +37,7 @@ html,body {
 
 body {
     color: white;
-    font-family: monospace;
+    font-family: "Courier Prime", monospace;
     font-size: 18px;
     line-height: 1.4;
     margin: 0;
