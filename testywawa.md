@@ -33,7 +33,7 @@ I am going to shrimply type out All Markdown, and then All HTML that isn't alrea
 
 ### Heady Wawa 3
 
-###### Heady Wawa 6, which I am using as the subtitly wawa
+###### Heady Wawa 6, which I am NO LONGER using as the subtitly wawa, as that would conflict with the autotoc. I will make a custom id for the subtitle style in the future
 
 **Boldy Wawa**
 
