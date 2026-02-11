@@ -88,10 +88,6 @@ Who let this wawa be so scrumptious?
 
 <img src="https://static1.e621.net/data/41/43/4143dbf4121905f9dc4aee752d9af7c1.png" alt="The Scrumpy Wawa" style="width:512px;height:512px;">
 
-Video Test:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RVdZs8Vh0O0?si=trVcVK2VGG2uXTfp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 
 
