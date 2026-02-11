@@ -28,12 +28,22 @@
   font-style: italic;
 }
 
-
 html,body {
     background-image: url('https://cdn.discordapp.com/attachments/651260735535448085/1470592041867022376/red-rainbow-storytime-tempbg.jpg?ex=698bdb11&is=698a8991&hm=5a4f00f4c0bc7dd5208ded1149eaccd031f22f873e90aa91ae476d071ef96de6&');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+}
+
+.w {
+    min-width: 30rem;
+    max-width: 40vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background: rgba(0,0,0,0.93);
+    border-left: 7px solid rgba(32,64,64,0.20);
+    border-right: 7px solid rgba(32,64,64,0.20)
 }
 
 body {
@@ -47,6 +57,7 @@ body {
 }
 
 h2,h3,h4,h5 {
+    color: rgba(255,247,250,1);
     margin-top: 1.5rem
 }
 
@@ -64,15 +75,18 @@ p {
     margin: 1.5rem 0
 }
 
-.w {
-    min-width: 30rem;
-    max-width: 40vw;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 4rem 2rem;
-    background: rgba(0,0,0,0.93);
-    border-left: 7px solid rgba(32,64,64,0.20);
-    border-right: 7px solid rgba(32,64,64,0.20)
+blockquote {
+    font-style: italic;
+    border: thin solid rgba(230,230,255,1);
+    padding: 1rem
+}
+
+blockquote p {
+    margin: 0
+}
+
+::selection {
+    background: darkred
 }
 
 code {
@@ -89,28 +103,41 @@ div.highlighter-rouge code {
 }
 
 abbr {
-    position: relative;
+    text-shadow: -0.7px 0px red;
+    transition: text-shadow 0.5s
 }
-abbr:hover::after {
+
+abbr:hover {
+    text-shadow: 1px 1px cyan
+}
+
+abbr::after {
     content: attr(data-title);
-    position: absolute;
-    width: 300px;
-    left: 100%;
-    display: block;
-    padding: 1em;
-    background: blue;
-    border-radius:20px;
-    color:white;
+    z-index: 10000;
+    position: fixed;
+    margin-top: 25px;
+    margin-left: -30px;
+    max-width: 45vw;
+    background: black;
+    color: magenta;
+    text-shadow: 5px 7px cyan, -5px -7px yellow, 5px -7px white, -5px 7px white;
+    box-shadow: 5px -5px cyan, -5px 5px magenta;
+    padding: 0.4rem;
+    font-size: 12px;
+    border: 1px dashed black;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0s, visibility 0s, color 0s,  border 0s, text-shadow 0s, box-shadow 0s
 }
 
-blockquote {
-    font-style: italic;
-    border: thin solid darkgray;
-    padding: 1rem
-}
-
-blockquote p {
-    margin: 0
+abbr:hover::after{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+    border: 1px dashed white;
+    text-shadow: 0 0;
+    box-shadow: 0 0;
+    transition: opacity 0.3s, visibility 0.3s, color 0.3s, border 1s, text-shadow 1s, box-shadow, 1s
 }
 
 img {
