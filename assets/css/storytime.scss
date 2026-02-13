@@ -5,11 +5,14 @@
 @import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
 @import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
 
+--viowhite: rgb(250,242,250);
+--manawhite: rgb(230,230,255);
+
 html,body {
     background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
-    scrollbar-color: rgb(255,0,0) rgb(0,0,0);
+    scrollbar-color: red black;
     scroll-behavior: smooth;
     overscroll-behavior: none
 }
@@ -20,9 +23,9 @@ html,body {
     min-height: 100vh;
     margin: auto;
     background: rgba(0,0,0,0.93);
-    border-left: 7px solid rgba(32,64,64,0.2);
-    border-right: 7px solid rgba(32,64,64,0.2);
-    color: rgb(255,247,250);
+    border-left: 10px solid rgba(32,64,64,0.2);
+    border-right: 10px solid rgba(32,64,64,0.2);
+    color: var(viowhite);
     font-family: "Courier Prime", monospace;
     font-size: 18px;
     line-height: 1.6;
@@ -33,7 +36,7 @@ html,body {
 #tocsidebar {
     position: fixed;
     width: 15rem;
-    min-height: 80vh;
+    min-height: 30vh;
     max-height: 80vh;
     margin-left: -350px;
     overflow-y: auto;
@@ -49,22 +52,17 @@ html,body {
     direction: ltr;
     padding: 2rem 0rem 2rem 1rem;
     font-family: "VGA New", serif;
-    color: white;
+    color: var(manawhite);
 }
 
-h2,h3,h4,h5 {
-    color: rgb(255,247,250);
+h2,h3,h4,h5,h6 {
+    color: var(viowhite);
     margin-top: 1.5rem
-}
-
-h6 {
-    color: lightslategray;
-    margin-top: 1rem
 }
 
 hr {
     margin: 2rem;
-    border-color: rgb(230,230,255)
+    border-color: var(manawhite)
 }
 
 p {
@@ -73,7 +71,8 @@ p {
 
 blockquote {
     font-style: italic;
-    border: thin solid rgb(230,230,255);
+    border: thin solid var(manawhite);
+    color: var(manawhite);
     padding: 1rem
 }
 
@@ -86,8 +85,8 @@ blockquote p {
 }
 
 code {
-    color: rgb(56,0,0);
-    background: white;
+    color: rgb(64,0,0);
+    background: var(viowhite);
     font-size: 18px
 }
 
@@ -99,7 +98,7 @@ div.highlighter-rouge code {
 }
 
 abbr {
-    text-shadow: -0.7px 0px red;
+    text-shadow: -0.8px 0px red;
     transition: text-shadow 0.5s
 }
 
@@ -130,7 +129,7 @@ abbr::after {
 abbr:hover::after{
     opacity: 1;
     visibility: visible;
-    color: white;
+    color: var(manawhite);
     border: 1px dashed white;
     text-shadow: 0 0;
     box-shadow: 0 0;
