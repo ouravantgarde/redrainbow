@@ -19,7 +19,7 @@
                 
             </div>
 
-        {% include anchor_headings.html html=content anchorBody="#" | replace: 'abbr title=', 'abbr data-title=' %}
+        {{ content | replace: 'abbr title=', 'abbr data-title=' }}
     
     </div>
 
