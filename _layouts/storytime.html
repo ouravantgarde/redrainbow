@@ -20,13 +20,13 @@
                 
             </div>
 
-        {{ content }}
+        {{ content | replace: 'abbr title=', 'abbr data-title=' }}
     
     </div>
 
     <script>
 
-    document.addEventListener("DOMContentLoaded", function(){
+    /*document.addEventListener("DOMContentLoaded", function(){
         function replaceTitleAttributes(){
         var elements = document.querySelectorAll('abbr[title]'),
             i;
@@ -36,7 +36,7 @@
         }
         }
     replaceTitleAttributes();
-    });
+    });*/
     
     </script>
   
