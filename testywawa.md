@@ -1,10 +1,8 @@
 ---
 layout: storytime
 ---
-
-{% capture sidebar %}
-
-how many bees
+{% include captures.html %}
+{% capture tocsidebar %}
 
 {:toc}
 
