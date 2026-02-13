@@ -10,8 +10,6 @@ how many bees
 
 {% endcapture %}
 
-{% include sidebar.html %}
-
 i have no idea what is going on
 
 
