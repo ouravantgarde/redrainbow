@@ -1,0 +1,120 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
+@import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
+
+html,body {
+    --viowhite: rgb(255,235,240);
+    --manawhite: rgb(225,225,255);
+    
+    background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    scrollbar-color: red black;
+    scroll-behavior: smooth;
+    overscroll-behavior: none
+}
+
+#storyentry {
+    min-width: 30rem;
+    max-width: 40vw;
+    min-height: 100vh;
+    margin: auto;
+    background: rgba(0,0,0,0.93);
+    border-left: 10px solid rgba(32,64,64,0.2);
+    border-right: 10px solid rgba(32,64,64,0.2);
+    color: var(--viowhite);
+    font-family: "Courier Prime", monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 4rem 2rem;
+    overflow-wrap: break-word
+}
+
+h2,h3,h4,h5,h6 {
+    color: var(--viowhite);
+    margin-top: 1.5rem
+}
+
+hr {
+    margin: 2rem;
+    border-color: var(--manawhite)
+}
+
+p {
+    margin: 1.5rem 0
+}
+
+blockquote {
+    font-style: italic;
+    border: thin solid var(--manawhite);
+    color: var(--manawhite);
+    padding: 1rem
+}
+
+blockquote p {
+    margin: 0
+}
+
+::selection {
+    background: darkred
+}
+
+code {
+    color: rgb(64,0,0);
+    background: var(--viowhite);
+    font-size: 18px
+}
+
+div.highlighter-rouge code {
+    display: block;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    padding: 1rem
+}
+
+abbr {
+    text-shadow: -0.8px 0px red;
+    transition: text-shadow 0.5s
+}
+
+abbr:hover {
+    text-shadow: 1px 1px cyan
+}
+
+abbr::after {
+    content: attr(data-title);
+    z-index: 10000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -30px;
+    max-width: 45vw;
+    background: black;
+    color: magenta;
+    text-shadow: 10px 14px cyan, -10px -14px yellow, 10px -14px white, -10px 14px white;
+    box-shadow: 5px -5px cyan, -5px 5px magenta;
+    padding: 0.4rem;
+    font-family: monospace;
+    font-size: 12px;
+    border: 1px dashed black;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0s, visibility 0s, color 0s,  border 0s, text-shadow 0s, box-shadow 0s
+}
+
+abbr:hover::after{
+    opacity: 1;
+    visibility: visible;
+    color: var(--manawhite);
+    border: 1px dashed white;
+    text-shadow: 0 0;
+    box-shadow: 0 0;
+    transition: opacity 0.3s, visibility 0.3s, color 0.3s, border 1s, text-shadow 1s, box-shadow, 1s
+}
+
+img {
+    display: block;
+    margin: auto
+}
