@@ -5,13 +5,10 @@
 @import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
 @import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
 
-:root {
+html,body {
     --viowhite: rgb(255,235,240);
     --manawhite: rgb(225,225,255);
-}
-
-
-html,body {
+    
     background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
@@ -52,9 +49,12 @@ html,body {
 }
 
 .toc {
+    width: 12rem;
     direction: ltr;
-    padding: 2rem 0rem 2rem 1rem;
+    padding: 0rem 0rem 1rem 1rem;
     font-family: "VGA New", serif;
+    font-size: 25px;
+    letter-spacing: 1px;
     color: var(--manawhite);
     list-style-type: none
 }
