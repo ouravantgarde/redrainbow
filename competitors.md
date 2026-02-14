@@ -40,6 +40,10 @@ It's mouths each display different expressions upon its surface. Grimacing has a
 
 * * *
 
+&nbsp;
+
+* * *
+
 # Phosphenes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **Tier** : Normal
@@ -65,6 +69,10 @@ Phosphenes are vaguely humanoid pitch black silhouettes, varying between 3 and 7
 They possess sporadic and broken animations and shift between properly walking, sliding, and warping randomly towards a destination.
 
 Phosphenes are named after the colors and patterns that appear when you rub your eyes.
+
+* * *
+
+&nbsp;
 
 * * *
 
@@ -108,14 +116,17 @@ Killed after Wail: Distressing.
 
 \[-\] **Compendium Entry - "The Parrot"**
 > Hello? There are songs outside, which is unfair.  
->   
+> 
+>
+>
 > Metal prevents flight, feathers leave my body.  
 > Cleaning myself every day to keep myself well.  
 > There are songs outside, metal prevents flight.  
 > Preening myself every day to keep myself well, feathers leave my body.  
->   
+> &nbsp;  
 > Atrophy rots.  
->   
+> 
+>
 > Hello? Metal prevents flight, there are songs outside.  
 > Rot is stopped by taking care of myself every hour.  
 > Preening myself every hour to keep myself well.  
