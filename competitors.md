@@ -119,13 +119,14 @@ Killed by Atrophy: Could you not bear its burden?
 Killed after Wail: Distressing.
 
 \[-\] **Compendium Entry - "The Parrot"**
-> Hello? There are songs outside, which is unfair.
-> Metal prevents flight, feathers leave my body.
-> Cleaning myself every day to keep myself well.
-> There are songs outside, metal prevents flight.
-> Preening myself every day to keep myself well, feathers leave my body.
+> Hello? There are songs outside, which is unfair.  
+> Metal prevents flight, feathers leave my body.  
+> Cleaning myself every day to keep myself well.  
+> There are songs outside, metal prevents flight.  
+> Preening myself every day to keep myself well, feathers leave my body.  
 >
 > Atrophy rots.
+>
 > &nbsp;
 > &nbsp;
 > &nbsp;
