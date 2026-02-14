@@ -75,7 +75,7 @@ html,body {
 
 .toc li:hover:active {
     background: black;
-    box-shadow: 12px 6px rgb(255,0,0,0.9), -12px -6px rgba(0,255,255,0.9);
+    box-shadow: 12px 6px rgba(255,0,0,0.9), -12px -6px rgba(0,255,255,0.9);
 }
 
 .toc ::selection {
