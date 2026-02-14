@@ -2,48 +2,130 @@
 layout: wiki
 ---
 
+# Yawns&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Tier** : Greater
+
+**Weight** : Heavy
+
+**Health** : 6000
+
+Yawns are disgusting abominations, flesh cultivated to absorb as much remnant as possible.
+
+\[-\] **Abilities**
+
+Yawns will stay put where they spawn, only moving slightly in a small area. They target their three different sides in three 120° radii surrounding them, and do not normally change orientation when moving.
+
+Yawns will **Consume** any remnants nearby them into its upper opening, depriving Reeham of mana. These remnants are released upon death.
+
+Yawns' **Maddening** side constantly spews out patterns of slow projectiles that deal 40 normal damage each. These projectiles slowly accelerate over time.
+
+Its **Gnawing** side will frequently create maws of energy near Reeham when in it's radius, which will dash and bite after 0.7 seconds, dealing 50 normal damage before dissipating.
+
+Its **Grimacing** side will build up a masses of teeth and gore around enemies in its radius, growing a tooth for a random enemy every 4 seconds. Each tooth grants +5 damage to all attacks and +20 health every second, up to a maximum of 6 stacks.
+
+If Reeham is in above Yawns, it will **Purge** a large beam of energy at her via its top opening, dealing 60 normal damage and applying a heavy snare that grounds and prevents jumping for 3 seconds.
+
+Every 33% of max health lost, Yawns will begin **Screaming** an unending monstrous howl as it rapidly spins upon its base, allowing it to use **Maddening**, **Gnawing**, and **Grimacing** in a 360° radius around it. It will also rapidly crawl around the arena. The Screaming will last for 7 seconds before it settles down in a new location.
+
+\[-\] **Visuals & Lore**
+
+Yawns are large fleshy totems, connected to a swivel joint base of meaty bone as well as three spider-like legs equidistantly orbiting its center to crawl. The flesh appears deeply red although somewhat grayed in streaks, with a sticky appearance. The main body itself has 3 relatively flat sides, which increases in width towards the top(while tapering down into the boney base at the bottom). Each side has its own vestigial "mouth" that takes up the entire side, however there is no "inside" to speak of; Right behind its outer teeth is a useless fleshy film. The top of Yawns is a crater lined with teeth, which is uses to consume remnant. It may also expel a bloody beam, angling itself the best it can to aim.
+
+It's mouths each display different expressions upon its surface. Grimacing has a very lip defined, exaggerated and overstretched smiling and frowning based on you killing enemies. Maddening is stretched open across the surface, appearing to leak blood as it attacks. Gnawing has prominent sharp teeth which it grits and breaks upon itself, although new grow back very quickly.
+
+\[-\] **Compendium Entry**
+
+> Pending...
+
 * * *
-# Cherry
-**Tier** : Fodder
-**Weight** : None
-**Health** : 600
-Cherries, along with Pits, are the only fodder competitors. They are aerial enemies that commonly appear in groups, moving a small distance creating a line of projectiles before firing.
 
-The swaying movements they make result in 4 danmaku-like orb projectiles, each dealing 20 normal damage, which all fire at the current player position when they next sway with a slight acceleration effect. Damaging cherries makes them do these movements constantly with no break, resulting in more projectiles. As a base, they move every 1 second upon detecting the player. Otherwise, they float around aimlessly.
+# Phosphenes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-It's eye is its weakpoint. It has no breakpoints, however cratering it will kill it instantly.
+**Tier** : Normal
 
-Cherries are based upon the eye motif present in weirdcore. They are vaguely angelic, with a head resembling an glaucomic eye. Beneath the eye is an umbrella of cloth-like material, largely grey with an elaborate patterning, giving the simulation of a dress. Two long strings of light reach out from the dress, and visually the projectiles created spawn from the dress.
+**Weight** : Light
 
-Upon being killed, a cherry will release a Pit. This does not apply if killed via cratering.
-[-] **Compendium Entry - "Angel Eyes"**
-> Please don't look away.  
->   
-> I like when you look at me so closely.  
->   
-> I want this to be what I last see. Can you do that for me?
+**Health** : 700
+
+Believed to be manifested from rapture's leftovers oozing its way all they way down, Phosphenes are a form of viral apparition, seeking fresh magic.
+
+\[-\] **Abilities**
+
+Phosphenes wander around the arena, gravitating towards Reeham. As their swarm increases, they move faster and may occasionally warp forward a small distance.
+
+They will **Rive** to create new Phosphenes every 6 to 12 seconds, causing them to quickly amass a swarm. Phosphenes will also **Leak** fluid that covers the ground, which deals 20 normal DPS and lasts for 7 seconds.
+
+Phosphenes possess **Viral Stability**. Touching them or the fluids they leave will rapidly decrease max health at a rate of 30% a second. This debuff lasts 4 seconds. If Reeham is brinking and touches Phosphenes, or brinks while under the effect of **Viral Stability**, she will instantly die regardless of any flesh health present.
+
+\[-\] **Visuals and Lore**
+
+Phosphenes are vaguely humanoid pitch black silhouettes, varying between 3 and 7 feet tall with no other change in body shape. Due to this, they are usually only able to be seen in contrast with a background, however dealing damage to them, or if their swarm gets big enough, causes their form to be stained with blurry pulses of fading colors and patterns.
+
+They possess sporadic and broken animations and shift between properly walking, sliding, and warping randomly towards a destination.
+
+Phosphenes are named after the colors and patterns that appear when you rub your eyes.
+
 * * *
-## Pit
-**Tier** : Fodder
-**Weight** : None
-**Health** : 1
-Pits are aerial enemies that float quickly around the map, always in curved paths, and constantly shoot projectiles. These typically only spawn upon the death of a Cherry, not often spawning on their own.
 
-The projectiles deal 15 light damage, and are fired every third of a second. The projectiles originate from empty space around the eye.
+# Wall Art&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-When they spawn, they have 2 seconds of immunity frames, but can otherwise be killed in one hit.
+**Tier** : Greater
 
-It has no breakpoints or weakpoints.
+**Weight** : Normal
 
-Pits take the form of barely real or coherent eyes, with a randomly colored flat glow surrounding them. Each one's model is given random shading and lighting, often not following the design rules of the game. They always face the player.
-\[-\] **Compendium Entry - "Antiprovidence"**
-> In the semiosphere\[sic\], eyes are the universal symbol of danger.  
+**Health** : 2000
+
+Wall Arts are pitiful vessels, absorbing the pain around them. You should make sure they suffer.
+
+\[-\] **Abilities**
+
+Wall Art will attempt to follow the largest health enemy in the arena. If that enemy dies, it will seek a new companion.
+
+Dependent on **Empathy**, they will drain pain from a target enemy. 33% of damage dealt to the target enemy is prevented and stored, up to 100 + 10% of the tethered enemies max health. When the target enemy begins to release light, **Empathy**'s limit has been reached, and **Throes** emanates red static pain around Empathy's target. While **Throes** is active, it will slowly drain **Empathy**'s stored damage at a rate of 60 DPS to create a large AoE of normal damage that expands until it runs out. During **Throes**, **Empathy**'s damage absorption is disabled entirely, and **Empathy**'s target experiences 20% higher animation speed. **Throes** is also released by Wall Art when it dies, lasting on its corpse for 6 seconds.
+
+While not under **Throes**, Wall Art may painfully **Wail**, releasing a staticky shockwave that expands across the arena, dealing 10 normal damage + normal damage based on Avnlyla's current health equal to Wall Art's percentage of missing health.
+
+Wall Art suffers all damage dealt to them in the form of **Atrophy**, causing them to take all damage over time. **Atrophy** bleeds out Wall Art at a maximum rate of 6.66% of max health per second, as such a Wall Art will always take at least 15 seconds to kill. **Atrophy** will spread to Avnlyla if she gets close, causing her to receive 10% of her max health as light DPS, for the amount of seconds spent in radius, plus two. As it loses health, it moves more unpredictably.
+
+Wall Arts will Experience **Mania** if they exist without pain, due to the stimulation of violence around them. Every second they are not bleeding, they give +2% damage and movement speed to the target of **Empathy**, maxing out at 30%.
+
+If a Wall Art goes 5 + _x_\*10 ( _x_ = current health / max health) seconds without **Atrophy**, **Mania** will be permanently active, which is considered an enrage. An enraged Wall Art will be reborn as a Joyous upon dying.
+
+\[-\] **Visuals & Lore**
+
+Wall Art are pastel blue, lowly detailed slender humanoids, with a bull-like head. They are around 5 feet tall, and appear to be somewhat furred. Their limbs end in small rounded points, missing hands and feet. They have unusually long arms, with which they often use to walk quadrupedally like an animal, although also sometimes walking bipedally.
+
+As it loses health, it gains bright pink horizontally oriented cuts on it's body via **Atrophy**. It will also move and behave more erratically and distressed as it loses health. It will stumble on its poor limbs, trying more and more different ways to walk, drifting left and right to pick at itself while trying to keep up with its target. At 10% health, the cuts clutter most of its body. These cuts release a light red staticky miasma of arcing energy, seen also in **Throes** and **Wail**. As it dies, the cuts on its body will expand about an inch while it trembles on the ground, releasing its blood and more miasma. If it dies while manic, a Joyous will burst and crawl of its back while it trembles, and the Wall Art is left behind like a suit.
+
+Wall Art is thematically about suffering. They are dependent beings that rely on the other demons, and if exposed to enough violence without suffering themselves, may unfortunately break in enabling ways.
+
+\[-\] **Death Messages**
+
+Killed by Atrophy: Could you not bear its burden?
+
+Killed after Wail: Distressing.
+
+\[-\] **Compendium Entry - "The Parrot"**
+> Hello? There are songs outside, which is unfair.  
 >   
-> "I know you exist"  
+> Metal prevents flight, feathers leave my body.  
+> Cleaning myself every day to keep myself well.  
+> There are songs outside, metal prevents flight.  
+> Preening myself every day to keep myself well, feathers leave my body.  
 >   
-> What could be scarier than being seen? Animals plaster themselves in false eyes and elaborate eye patterns. For no other reason but to scare off predators, to make them feel watched.  
+> Atrophy rots.  
 >   
-> We aren't all that different. Staring is seen as disrespectful, Heaven forbid a stranger stare at you as if they know you. There's the mythological concepts of evil eyes and basilisks, they controlled entire civilizations. Yet because of our sapient fear, we see eyes as protection. The hamsa. The Eye of Providence, Horus, or those of Buddha.  
+> Hello? Metal prevents flight, there are songs outside.  
+> Rot is stopped by taking care of myself every hour.  
+> Preening myself every hour to keep myself well.  
+> There are feathers outside, cleaning myself is unfair.  
 >   
-> All god does anymore is watch.
-* * *
+> Atrophy rots.  
+>   
+> Hello?  
+> Metal keeps me unwell, atrophy prevents flight.  
+> Feathers leave my body, rotting myself every second to keep me unwell.  
+> Metal is rot, rot leaves my body, cleaning myself every second.  
+>   
+> Metal, atrophy, rot.
