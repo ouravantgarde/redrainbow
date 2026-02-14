@@ -22,7 +22,7 @@ html,body {
     max-width: 40vw;
     min-height: 100vh;
     margin: auto;
-    background: rgba(0,0,0,0.93);
+    background: rgba(0,0,0,0.90);
     border-left: 10px solid rgba(32,64,64,0.2);
     border-right: 10px solid rgba(32,64,64,0.2);
     color: var(--viowhite);
@@ -35,28 +35,51 @@ html,body {
 
 .toc {
     position: fixed;
-    width: 15rem;
+    width: 20rem;
     height: 100vh;
-    margin-left: -350px;
+    margin-left: -475px;
     margin-top: -4rem;
     overflow-y: auto;
+    overflow-x: clip;
     direction: rtl;
-    scrollbar-color: white black;
+    scrollbar-color: rgba(255,255,255,1) rgba(0,0,0,0);
     scrollbar-width: thin;
-    scrollbar-gutter: stable both-edges;
-    background: black;
-    outline: thin solid white
-}  
+    /*scrollbar-gutter: stable both-edges;*/
+    background: rgba(0,0,0,0.15);
+    backdrop-filter: grayscale() blur(1.5px);
+    outline: thin solid #fff
+}
+
+.toc ul {
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+}
 
 .toc li {
-    width: 12rem;
-    direction: ltr;
-    padding: 0rem 0rem 1rem 1rem;
+    margin: 30px 0px 0px 0px;
+    padding: 0.3rem 0rem 0.3rem 1rem;
+    background: rgba(255,255,255,0.1);
     font-family: "VGA New", serif;
-    font-size: 25px;
-    letter-spacing: 1px;
-    color: var(--manawhite);
-    list-style-type: none
+    font-size: 20px;
+    letter-spacing: 3px;
+    transition: background 0.2s, padding 0.2s
+}
+
+.toc li:hover {
+    background: rgba(255,255,255,0.8);
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    box-shadow: 0px 2px rgba(0,255,255,0.5), 0px -2px rgb(255,0,0,0.5);
+    transition: background 0.2s, box-shadow 0.2s
+}
+
+.toc li:hover:active {
+    background: black;
+    box-shadow: 12px 6px rgb(255,0,0,0.9), -12px -6px rgba(0,255,255,0.9);
+}
+
+.toc ::selection {
+    background: rgba(0,0,0,0)
 }
 
 h2,h3,h4,h5,h6 {
