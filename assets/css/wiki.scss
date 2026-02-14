@@ -5,26 +5,27 @@
 @import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
 @import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
 
-html,body {
+html, body {
     --viowhite: rgb(255,235,240);
     --manawhite: rgb(225,225,255);
-    
-    background: black url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
+    background: #000 url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
     background-position: center;
     background-size: cover;
-    scrollbar-color: red black;
-    scroll-behavior: smooth;
-    overscroll-behavior: none
+    overscroll-behavior: none;
 }
 
 #wiki {
     min-width: 30rem;
     max-width: 40vw;
-    min-height: 100vh;
-    margin: auto;
-    background: rgba(0,0,0,0.90);
-    border-left: 10px solid rgba(32,64,64,0.2);
-    border-right: 10px solid rgba(32,64,64,0.2);
+    height: 86vh;
+    margin: 7vh auto 0;
+    overflow-y: auto;
+    scrollbar-gutter: stable both-edges;
+    scrollbar-color: rgba(255,255,255,0.9) transparent; 
+    background: rgba(0,0,0,0.7);
+    outline: thin solid white;
+    border-radius: 15px;
+    border-color: rgba(0,0,0,0);
     color: var(--viowhite);
     font-family: "Courier Prime", monospace;
     font-size: 18px;
@@ -37,8 +38,7 @@ html,body {
     position: fixed;
     width: 20rem;
     height: 100vh;
-    margin-left: -475px;
-    margin-top: -4rem;
+    margin: calc(-7vh + -4rem) 0px 0px -475px;
     overflow-y: auto;
     overflow-x: clip;
     direction: rtl;
