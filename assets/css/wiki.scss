@@ -5,7 +5,7 @@
 @import url(https://db.onlinewebfonts.com/c/c94e49765ec47b72f1cec8a8c4ef14c5?family=Courier+Prime);
 @import url(https://db.onlinewebfonts.com/c/9263dd1028ba2eef4981450e97433b11?family=VGA+New);
 
-html, body {
+html,body {
     --viowhite: rgb(255,235,240);
     --manawhite: rgb(225,225,255);
     background: #000 url("../../red-rainbow-storytime-tempbg.jpg") no-repeat fixed;
@@ -15,44 +15,44 @@ html, body {
 }
 
 #wiki {
-    min-width: 30rem;
-    max-width: 40vw;
-    height: 86vh;
-    margin: 7vh auto 0;
+    min-width: 600px;
+    max-width: min(40vw, 1040px);
+    height: 94vh;
+    margin: 3vh auto 0;
     overflow-y: auto;
     scrollbar-gutter: stable both-edges;
-    scrollbar-color: rgba(255,255,255,0.9) transparent; 
-    background: rgba(0,0,0,0.7);
-    outline: thin solid white;
+    scrollbar-color: rgba(255,255,255,0.60) transparent;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(2px);
+    outline: thin solid #ffffff;
     border-radius: 15px;
-    border-color: rgba(0,0,0,0);
+    box-shadow: 
+    -10px 0 150px 30px rgba(0,0,0,0.10),
+    -10px 0 50px 30px rgba(0,0,0,0.20) inset,
+    0.5px 0.5px 0px 0.5px rgba(0,255,255,0.50) inset, 
+    -0.5px -0.5px 0px 0.5px rgba(255,0,255,0.35) inset;
     color: var(--viowhite);
     font-family: "Courier Prime", monospace;
-    font-size: 18px;
+    font-size: clamp(14px, 1vw - 0.15rem, 2vw);
     line-height: 1.6;
-    padding: 4rem 2rem;
+    padding: 4em 2em;
     overflow-wrap: break-word
 }
 
 .toc {
-    position: fixed;
-    width: 20rem;
+    position: absolute;
+    width: 324px;
     height: 100vh;
-    margin: calc(-7vh + -4rem) 0px 0px -475px;
+    margin-top: -3vh;
+    margin-left: calc(max(30vw, 450px) - 450px);
     overflow-y: auto;
     overflow-x: clip;
     direction: rtl;
-    scrollbar-color: #fff transparent;
+    scrollbar-color: white transparent;
     scrollbar-width: thin;
     background: rgba(0,0,0,0.15);
     backdrop-filter: grayscale(1) blur(1.5px);
     outline: thin solid #fff
-}
-
-.toc ul {
-    display: flex;
-    flex-direction: column;
-    direction: ltr
 }
 
 .toc li {
