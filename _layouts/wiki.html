@@ -12,13 +12,13 @@
   
 <body>
 
-    <div class="toc">
+    <nav class="toc" role="navigation">
         {% include toc.html html=content flat_toc = true %}      
-    </div>
+    </nav>
 
-    <div id="wiki">
+    <main id="wiki" role="main">
         {{ content | replace: 'abbr title=', 'abbr data-title=' }}
-    </div>
+    </main>
 
 </body>
 </html>
